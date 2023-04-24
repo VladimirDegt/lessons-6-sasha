@@ -1,0 +1,10 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.link:hover{
+    color: rgb(10, 86, 200);
+    
+}
