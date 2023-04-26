@@ -4,9 +4,8 @@
     font-size: 14px;
     margin-left: 100px; 
     text-transform: uppercase;
-  }
-  
-  .text:hover {
+}
+.text:hover {
     color: #03a9f4;
     cursor: pointer;
-  }
+}
