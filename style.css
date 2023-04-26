@@ -1,11 +1,39 @@
-
-.text {
-    color: #7d7d7d;
-    font-size: 14px;
-    margin-left: 100px; 
-    text-transform: uppercase;
+body{
+    font-family: 'Roboto',sans-serif;
+    color: #212121;
 }
-.text:hover {
-    color: #03a9f4;
-    cursor: pointer;
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    color: inherit;
+    text-decoration:none;
+    text-align: center;
+    display: block;
+    line-height: 60px;
+}
+.logo__game{
+    color: #2196F3;
+}
+.hero{
+    background-image: url('img/HeroBG.jpg');
+    padding-top: 158px;
+    padding-bottom: 158px;
+}
+
+.hero__title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 26px;
+
 }
