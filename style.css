@@ -6,7 +6,16 @@ body{
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
-
+/* .box{
+    width: 500px;
+    height: 500px;
+    background-color:palevioletred;
+} */
+.container{
+    padding: 0 15px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -25,6 +34,9 @@ h1,h2,h3,h4,h5,h6,p{
     background-image: url('img/HeroBG.jpg');
     padding-top: 158px;
     padding-bottom: 158px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero__title{
@@ -36,4 +48,28 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: 900;
     font-size: 26px;
 
+}
+.section-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    text-align: center;
+    /*border-bottom: 2px solid #2196F3;*/
+}
+
+.section-title::after{
+    content: '';
+    display: none;
+    width: 100px;
+    height: 2px;
+    background-color: #2196F3;
+    margin: 0 auto;
+}
+.section-title:hover::after{
+    display: block;
+}
+section{
+    padding-top: 25px;
 }
