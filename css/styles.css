@@ -12,7 +12,7 @@
 body {
     color: var(--blue);
     background-color:var(--black2);
-    
+    margin: 0;    
 }
 
 h1,h2,h3,h4,h5,h6, p {
@@ -39,6 +39,10 @@ footer a{
 
 ul{
     list-style:none;
+}
+
+h1, h2, h3, h4, h5, h6, p, li{
+    padding: 0;
 }
 
 .wrap{
@@ -108,7 +112,7 @@ ul{
 }
 
 .hero-img{
-    background:url(../img/heroimg3.jpg) center center no-repeat;
+    background:url(../img/flag.jpg) center center no-repeat;
     background-size: cover;
     padding: 75px 0 145px 0;
 }
@@ -193,7 +197,8 @@ ul{
 
 .number{
     color:var(--yellow);
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .card__container{
@@ -217,11 +222,18 @@ ul{
     margin-bottom: 15px;
 }
 
-/*card3*/
+@media screen and (max-width:768px){
+    .item {
+        width: 300px;
+    }
+}
 
 .card-3{
     background-color:var(--white);
     min-height: 100%;
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
 }
 .card-3-prew{
     height: 200px;
