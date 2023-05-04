@@ -1,76 +1,271 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <title>проєкт</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-    <head>
-        <nav>
-            <a href="/" class="logo">
-                <span class="logo__game">Game</span><span>Studio</span>
-            </a>
-        </nav>
-        <div class="hero">
-            <h1 class="hero__title">Найкращі відео<br>
-                ігри для вас
-            </h1>
-        </div>
-    </head>
-    <main>
-        <section>
-            <h2 class="section-title">Виберіть свою гру</h2>
-        </section>
-        <!-- <div class="box"></div> -->
-        <div class="container">
-            <ul>
-                <li>
-                    <article class="game">
-                        <img src="./img/Minecraft.jpg" alt="Minecraft" class="game__img" />
-                        <div class="game__info">
-                            <h3 class="game__title">Minecraft</h3>
-                            <p class="game__text">
-                           Досліджуйте та будуйте *безкінечні світи
-                            </p>
-                             </div>
-                    </article>
+    <div class="page">
+        <header>
+            <div class="all-header_menu">
+                <a href="./index.html"  class="logo">
+                    <span class="first-part">Укра</span><span class="second-part">їна</span>
+                </a>
+            </div>
+        </header>
+        <main>
+            <section class="hero-img">
+                <div class="hero wrap">
+                    <h1 class="text">І розквітне Україна!</h1>
+                    <h2 class="text">Гарні міста в яких потрібно побувати</h2>
+                </div>
+            </section>
+            <ul class="number">
+                <li class="card__container">
+                    <h2 class="text title">Вінниця</h2>
+                    <ul class="grid">
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/vin1.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">До</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/vin2.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Зараз</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/vin3.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Після</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <article>
-                        <img src="" alt="">
-                        <div>
-                            <h3></h3>
-                        </div>
-                        </img>
-                    </article>
+                <li class="card__container">
+                    <h2 class="text title">Івано-Франківськ</h2>
+                    <ul class="grid">
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/ivan1.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">До</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/ivan22.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Зараз</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/ivan3.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Після</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <article>
-                        <img src="" alt="">
-                        <div>
-                            <h3></h3>
-                        </div>
-                        </img>
-                    </article>
+                <li class="card__container">
+                    <h2 class="text title">Полтава</h2>
+                    <ul class="grid">
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/poltava1.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">До</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/poltava2.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Зараз</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/poltava3.jpeg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Після</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <article>
-                        <img src="" alt="">
-                        <div>
-                            <h3></h3>
-                        </div>
-                        </img>
-                    </article>
+                <li class="card__container">
+                    <h2 class="text title">Київ</h2>
+                    <ul class="grid">
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/kyiv1.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">До</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/kyiv2.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Зараз</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/kyiv3.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Після</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="card__container">
+                    <h2 class="text title">Харків</h2>
+                    <ul class="grid">
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/kharkiv1.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">До</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/kharkiv2.jpeg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Зараз</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/k.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Після</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="card__container">
+                    <h2 class="text title">Дніпро</h2>
+                    <ul class="grid">
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/dnipro1.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">До</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/dnipro2.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Зараз</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="card-3 text">
+                                <div class="card-3-prew">
+                                    <img class="card-3-img" src="img/dnipro3.jpg" alt="">
+                                </div>
+                                <div class="card-3-body">
+                                    <h3 class="card-3-title">Після</h3>
+                                    <p class="card-3-desc">Будівля</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </li>
             </ul>
-        </div>
-    </main>
+        </main>
+        <footer>
+            <div class="all-header_menu_footer">
+                <a href="./index.html"  class="logo">
+                    <span class="first-part">Укра</span><span class="second-part">їна</span>
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
