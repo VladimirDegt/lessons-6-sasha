@@ -2,7 +2,7 @@
     --yellow: rgb(196, 196, 18);
     --blue: #212121;
     --black:rgb(226, 226, 226);;
-    --black2:rgb(245, 241, 241);;
+    --black2:rgb(255, 255, 255);;
     --white: white;
     --blue2: rgb(12, 12, 175);
 }
@@ -83,10 +83,7 @@ h1, h2, h3, h4, h5, h6, p, li{
 }
 
 .all-header_menu_footer{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-    padding: 30px 15px;
+    padding: 15px;
     box-sizing: border-box;
     max-width: 1330px;
     margin: 0 auto;
@@ -112,9 +109,10 @@ h1, h2, h3, h4, h5, h6, p, li{
 }
 
 .hero-img{
-    background:url(../img/flag.jpg) center center no-repeat;
+    background:url(../img/HR1.jpg) center center no-repeat;
     background-size: cover;
     padding: 75px 0 145px 0;
+    text-align: center;
 }
 
 .hero{
@@ -181,7 +179,8 @@ h1, h2, h3, h4, h5, h6, p, li{
 .text__hero{
     font-family: 'Open Sans', sans-serif;
     font-weight: medium;
-    color:var(--white)
+    /* color:var(--white) */
+    color:blue
 }
 .title{
     text-align: center;
@@ -258,4 +257,28 @@ h1, h2, h3, h4, h5, h6, p, li{
 }
 .card-3-desc{
     margin-bottom: 0;
+}
+
+
+
+
+article{
+    text-align: center;
+}
+.titlee{
+    margin: 15px 0;
+}
+.text__s{
+    margin: 0 0 15px 0 ;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    padding-bottom: 100px;
 }
